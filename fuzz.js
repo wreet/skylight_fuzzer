@@ -14,36 +14,7 @@ Process.setExceptionHandler(function(e) {
 });
 
 var ignore_list = [ // some msgh_id are the same boring crashes over and over
-	"0x73a8", // _XSetConnectionNotifyInterests
-	"0x73a7", // _XSetProcessNotifyInterests
-	"0x7290", // _XDisplayVisualBell
-//	"0x7308", // _XSetKeyTranslationTable
-//	"0x7290", // xdisplalyvisualbell
-//	"0x7350", // _XSetMenuBars
-//	"0x7372",
-//	"0x7373",
-//	"0x73b8",
-//	"0x734b",
-//	"0x7230",
-//	"0x73b6", //_XSetPressureConfigurationOverride
-//	"0x74a3", // _XRegisterColorSpace
-//	"0x73a4", // _XReassociateWindowsSpacesByGeometry
-//	"0x734e", // _XRegisterCursorImages
-//	"0x722a", // _XSetWindowOpaqueShape
-//	"0x7318", // _XShapeWindow
-//	"0x731b", // _XContextDidCommit
-//	"0x7337", // _XPackagesEnableConnectionOcclusionNotifications 
-//	"0x73b7", // _XAddStructuralRegionOfType
-//	"0x72d7", // _XSetConnectionProperty
-//	"0x73b9", // _XStructuralRegionSetShape
-//	"0x7372", // _XCopySpacesForWindows
-//	"0x73c0", // _XTrackingRegionSetForceConfig
-//	"0x7307", // _XSetWindowEventShape
-//	"0x7263", // _XFlushRegion
-//	"0x7242", // _XSetWindowProperty
-//	"0x7330", // _XContextDidCommit
-//	"0x722c", // _XSetWindowCornerMask
-//	"0x7229", // _XWindowSetShadowProperties
+	//"0x73a8", _XSetConnectionNotifyInterests ignore example
 ];
 
 var REPLAY_MODE = false;
